@@ -1,7 +1,35 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
+.navbar-content {
+  width: 10rem;
+  padding: 0.7rem;
+}
+
+.navbar-center {
+  font-size: 1.2rem;
+  color: white;
+  letter-spacing: 0.2rem;
+}
+
+.navbar-center img {
+  width: 3rem;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-content {
+    width: auto;
+  }
+
+  .navbar-center {
+    font-size: 0.7rem;
+  }
+
+}
