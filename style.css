@@ -21,6 +21,29 @@
 .navbar-center img {
   width: 3rem;
 }
+.highlight-text{
+   color: white;
+   margin: 9.5rem 0 0 12rem;
+   letter-spacing: 0.4rem;
+
+}
+.highlight-text p{
+    margin: 0;
+    padding: 0;
+    line-height: 3.8rem;
+}
+.flat-details{
+    color: white;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    border-right: 2px solid white;
+    line-height: 1.6rem;
+}
+.flat-details:last-child {
+    border-right: none;
+  }
+
 
 
 @media (max-width: 768px) {
